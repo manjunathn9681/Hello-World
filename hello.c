@@ -1,9 +1,14 @@
 
 #include <stdio.h>
+void greet(const char *name)
+{
+    printf("Hello, %s! Welcome to your GitHub portfolio.\n", name);
+}
 
 int main(void)
 {
-	int arr[5] = {1, 2, 3, 4, 5};
-	printf("%d",arr.length);
+	greet("Alice");
 	return 0;
 }
+	
+
